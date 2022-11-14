@@ -10,8 +10,43 @@ def print_hi(name):
 
 
 # Press the green button in the gutter to run the script.
-no_p = 3 + 4
-if no_p != 7
-    print ("You are mad")
+print("Hello Health informatics")
+
+my_var = 5
+my_second_var = 11
+
+calculation = my_var + my_second_var
+print(calculation)
+
+first_name = "Valentine"
+second_name = "Uche"
+
+print(f"My name is {first_name} {second_name}")
+
+type(first_name)
+type(my_var)
+#you can call this function to find out the type of variable
+
+#Date and Time
+from datetime import date, timedelta
+#datetime is a lbirary that allows us to deal with time
+
+queen_bday = date(year=1936, month=4, day=3)
+
+print(queen_bday.strftime("%d, %B, %Y"))
+#changes the presentation of the date and time as strftime is very powerful
+# you can change the format to use %d/%m/%y
+#Look at the documentation for strftime
+
+today_date = date.today()
+#this fucntion returns the current date
+print(today_date.strftime("%d/%m/%Y"))
+
+if queen_bday < today_date:
+    print("The queen is old")
+
+queen_Day = today_date - queen_bday
+print(queen_Day)
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
