@@ -48,5 +48,11 @@ if queen_bday < today_date:
 queen_Day = today_date - queen_bday
 print(queen_Day)
 
+tank_days = timedelta(days=10000)
+#this function creates a variable that caould be used to add 10000 days to any datetime
+my_bday = date( year=2001, month=2, day=15)
+ten_an = my_bday + tank_days
+
+print(ten_an.strftime("%d/%m/%y"))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
