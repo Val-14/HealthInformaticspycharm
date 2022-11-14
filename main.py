@@ -10,7 +10,8 @@ def print_hi(name):
 
 
 # Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+no_p = 3 + 4
+if no_p != 7
+    print ("You are mad")
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
